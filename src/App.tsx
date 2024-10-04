@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { NavBar } from "./components/navbar.component";
+import { Home } from "./pages/home.component";
 
 function App() {
   return (
@@ -10,9 +11,8 @@ function App() {
       <NavBar />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<></>} />
-          <Route index element={<></>} />
-          <Route path="/blogs" element={<></>} />
+          <Route index path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </>
