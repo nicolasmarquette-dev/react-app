@@ -24,23 +24,22 @@
   margin-left: 20px;
 }
 
-.text-list {
-  background-color: blue;
-  position: relative;
-  ul {
-    list-style-type: none; /* Supprime les puces */
-  }
-}
-
 .paragraph-list div {
   margin-bottom: 5%; /* Espace entre le paragraphe et le séparateur */
+  padding: 0 50px 0 50px;
 }
 .paragraph-list div:first-child {
   margin-top: 5%; /* Espace entre le paragraphe et le séparateur */
 }
 .separator {
-  width: 50px; /* Largeur plus petite du séparateur */
+  width: 30px; /* Largeur plus petite du séparateur */
   height: 2px; /* Épaisseur du séparateur */
   background-color: #ccc; /* Couleur du séparateur */
   margin: 10px auto; /* Centrer le séparateur et ajouter un espace vertical */
+}
+h1 {
+  font-size: 24px !important; /* Réduit la taille de la police à 24 pixels */
+  font-weight: bold; /* Si tu veux rendre le texte moins gras */
+  color: #333; /* Couleur du texte (optionnel) */
+  text-align: left;
 }

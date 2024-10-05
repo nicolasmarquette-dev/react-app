@@ -21,11 +21,20 @@ export const Home = (): JSX.Element => {
         </div>
         <div className="text-overlay">{LABELS.en.SLOGAN}</div>
         <div className="paragraph-list">
-          <div>{LABELS.en.PARAGRAPH_1}</div>
+          <div>
+            <h1>{LABELS.en.TITLE_1}</h1>
+            {LABELS.en.PARAGRAPH_1}
+          </div>
           <div className="separator"></div>
-          <div>{LABELS.en.PARAGRAPH_2}</div>
+          <div>
+            <h1>{LABELS.en.TITLE_2}</h1>
+            {LABELS.en.PARAGRAPH_2}
+          </div>
           <div className="separator"></div>
-          <div>{LABELS.en.PARAGRAPH_3}</div>
+          <div>
+            <h1>{LABELS.en.TITLE_3}</h1>
+            {LABELS.en.PARAGRAPH_3}
+          </div>
         </div>
       </div>
     </>
