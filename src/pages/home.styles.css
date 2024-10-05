@@ -7,4 +7,40 @@
   width: 100%;
   height: 500px;
   overflow: hidden;
+  position: relative;
+  top: 0;
+}
+
+.text-overlay {
+  position: absolute; /* Place le texte en position absolue dans le conteneur */
+  top: 30%; /* Ajuste la position du texte */
+  left: 25%;
+  transform: translate(-30%, -50%); /* Centre le texte */
+  color: white; /* Couleur du texte */
+  font-size: 24px; /* Taille du texte */
+  background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+  padding: 10px; /* Espacement autour du texte */
+  border-radius: 5px; /* Bordures arrondies */
+  margin-left: 20px;
+}
+
+.text-list {
+  background-color: blue;
+  position: relative;
+  ul {
+    list-style-type: none; /* Supprime les puces */
+  }
+}
+
+.paragraph-list div {
+  margin-bottom: 5%; /* Espace entre le paragraphe et le séparateur */
+}
+.paragraph-list div:first-child {
+  margin-top: 5%; /* Espace entre le paragraphe et le séparateur */
+}
+.separator {
+  width: 50px; /* Largeur plus petite du séparateur */
+  height: 2px; /* Épaisseur du séparateur */
+  background-color: #ccc; /* Couleur du séparateur */
+  margin: 10px auto; /* Centrer le séparateur et ajouter un espace vertical */
 }
