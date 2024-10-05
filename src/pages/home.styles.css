@@ -24,12 +24,19 @@
   margin-left: 20px;
 }
 
+.paragraph-list {
+  img {
+    width: 100px;
+    height: auto;
+  }
+}
+
 .paragraph-list div {
   margin-bottom: 5%; /* Espace entre le paragraphe et le séparateur */
   padding: 0 50px 0 50px;
 }
 .paragraph-list div:first-child {
-  margin-top: 5%; /* Espace entre le paragraphe et le séparateur */
+  margin-top: 8px; /* Espace entre le paragraphe et le séparateur */
 }
 .separator {
   width: 30px; /* Largeur plus petite du séparateur */

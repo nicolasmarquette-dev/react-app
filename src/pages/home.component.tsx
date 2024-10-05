@@ -3,6 +3,9 @@ import restaurantImage from "../assets/restaurant_large.jpg";
 import restaurantMediumImage from "../assets/restaurant_medium.jpg";
 import restaurantSmallImage from "../assets/restaurant_small.jpg";
 import LABELS from "../constants/labels";
+import GoldenLogo from "../assets/golden-logo.webp";
+import VintageLogo from "../assets/vintage-logo.png";
+import EagleLogo from "../assets/eagle-logo.png";
 
 export const Home = (): JSX.Element => {
   return (
@@ -22,16 +25,19 @@ export const Home = (): JSX.Element => {
         <div className="text-overlay">{LABELS.en.SLOGAN}</div>
         <div className="paragraph-list">
           <div>
+            <img src={GoldenLogo} />
             <h1>{LABELS.en.TITLE_1}</h1>
             {LABELS.en.PARAGRAPH_1}
           </div>
           <div className="separator"></div>
           <div>
+            <img src={VintageLogo} />
             <h1>{LABELS.en.TITLE_2}</h1>
             {LABELS.en.PARAGRAPH_2}
           </div>
           <div className="separator"></div>
           <div>
+            <img src={EagleLogo} />
             <h1>{LABELS.en.TITLE_3}</h1>
             {LABELS.en.PARAGRAPH_3}
           </div>
