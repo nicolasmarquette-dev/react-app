@@ -6,7 +6,7 @@ interface LanguageSelectorProps {
   setLanguage: React.Dispatch<React.SetStateAction<LanguageKeys>>;
 }
 export const LanguageSelector = (props: LanguageSelectorProps): JSX.Element => {
-  const LANGUAGES = ["fr", "en"];
+  const LANGUAGES: LanguageKeys[] = ["fr", "en", "es"];
 
   const getLanguageLabel = (language: string) => {
     switch (language) {
@@ -14,6 +14,8 @@ export const LanguageSelector = (props: LanguageSelectorProps): JSX.Element => {
         return "English";
       case "fr":
         return "Français";
+      case "es":
+        return "Español";
       default:
         return "";
     }
