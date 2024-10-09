@@ -2,15 +2,18 @@ import "./home.styles.css";
 import restaurantImage from "../assets/restaurant_large.jpg";
 import restaurantMediumImage from "../assets/restaurant_medium.jpg";
 import restaurantSmallImage from "../assets/restaurant_small.jpg";
+import hoursImage from "../assets/hours.jpg";
+
 import LABELS from "../constants/labels";
 import GoldenLogo from "../assets/golden-logo.webp";
 import VintageLogo from "../assets/vintage-logo.png";
 import EagleLogo from "../assets/eagle-logo.png";
+import { Hours } from "../components/hours.component";
 
 export const Home = (): JSX.Element => {
   return (
     <>
-      <div className="co">
+      <div>
         <div className="image">
           <picture>
             <source media="(max-width: 600px)" srcSet={restaurantSmallImage} />
@@ -41,6 +44,17 @@ export const Home = (): JSX.Element => {
             <h1>{LABELS.en.TITLE_3}</h1>
             {LABELS.en.PARAGRAPH_3}
           </div>
+        </div>
+        <div className="image">
+          <picture>
+            <source media="(max-width: 600px)" srcSet={hoursImage} />
+            <source media="(max-width: 1200px)" srcSet={hoursImage} />
+            <source media="(min-width: 1201px)" srcSet={hoursImage} />
+            <img src={restaurantImage} alt="restaurant" />
+          </picture>
+        </div>
+        <div className="hours-overlay">
+          <Hours />
         </div>
       </div>
     </>

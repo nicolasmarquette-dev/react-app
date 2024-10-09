@@ -1,0 +1,29 @@
+.restaurant-hours {
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.restaurant-hours h2 {
+  text-align: center;
+  color: #333;
+}
+
+.restaurant-hours ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.restaurant-hours li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+
+.restaurant-hours li strong {
+  margin-right: 10px;
+  color: #555;
+}

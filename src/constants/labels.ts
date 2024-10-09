@@ -18,6 +18,7 @@ const LABELS = {
     TITLE_3: "Third title",
     PARAGRAPH_3:
       "Cras sit amet lobortis leo, ut auctor eros. In id ornare eros. Duis turpis elit, feugiat non tortor ac, finibus tincidunt tellus. Quisque ut massa in velit congue venenatis semper in ligula. Mauris euismod congue suscipit. Aenean efficitur elementum lacinia. Aliquam commodo orci nibh, et congue sapien pharetra sit amet. Vivamus efficitur orci sit amet iaculis pulvinar.",
+    HOURS: "Opening hours",
   },
   fr: {
     APPLY: "Postuler dans notre équipe",
@@ -37,6 +38,7 @@ const LABELS = {
     TITLE_3: "Third title",
     PARAGRAPH_3:
       "Cras sit amet lobortis leo, ut auctor eros. In id ornare eros. Duis turpis elit, feugiat non tortor ac, finibus tincidunt tellus. Quisque ut massa in velit congue venenatis semper in ligula. Mauris euismod congue suscipit. Aenean efficitur elementum lacinia. Aliquam commodo orci nibh, et congue sapien pharetra sit amet. Vivamus efficitur orci sit amet iaculis pulvinar.",
+    HOURS: "Horaires d'ouverture",
   },
 };
 
