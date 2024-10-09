@@ -22,9 +22,10 @@ export const LanguageSelector = (props: LanguageSelectorProps): JSX.Element => {
   return (
     <Select
       value={props.language}
-      onChange={(e: SelectChangeEvent<string>) =>
-        props.setLanguage(e.target.value as LanguageKeys)
-      }
+      onChange={(e: SelectChangeEvent<string>) => {
+        props.setLanguage(e.target.value as LanguageKeys);
+        localStorage.setItem("language", e.target.value);
+      }}
       sx={{
         color: "white",
         ".MuiSelect-icon": {

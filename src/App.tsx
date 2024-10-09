@@ -9,7 +9,9 @@ import { useState } from "react";
 import { LanguageKeys } from "./constants/labels";
 
 function App() {
-  const [languageSelected, setLanguageSelected] = useState<LanguageKeys>("fr");
+  const [languageSelected, setLanguageSelected] = useState<LanguageKeys>(
+    (localStorage.getItem("language") as LanguageKeys) ?? "fr"
+  );
 
   return (
     <>
