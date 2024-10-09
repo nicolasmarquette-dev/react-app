@@ -15,13 +15,13 @@ export const NavBar = (props: NavBarProps): JSX.Element => {
   return (
     <Navbar expand="lg" className="bg-dark navbar-dark" fixed="top">
       <Container>
-        <Navbar.Brand href="/home">
+        <Navbar.Brand href="/">
           {LABELS[props.language].THE_RESTAURANT}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/home">{LABELS[props.language].HOME}</Nav.Link>
+            <Nav.Link href="/">{LABELS[props.language].HOME}</Nav.Link>
             <Nav.Link href="/menu">{LABELS[props.language].MENU}</Nav.Link>
             <Nav.Link href="/contact">
               {LABELS[props.language].CONTACT}

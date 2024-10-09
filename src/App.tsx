@@ -23,7 +23,7 @@ function App() {
             path="/"
             element={<Home language={languageSelected} />}
           />
-          <Route path="/home" element={<Home language={languageSelected} />} />
+          <Route path="/" element={<Home language={languageSelected} />} />
           <Route path="/menu" element={<Menu />} />
         </Routes>
       </BrowserRouter>
