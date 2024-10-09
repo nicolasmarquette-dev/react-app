@@ -47,10 +47,7 @@ export const Home = (): JSX.Element => {
         </div>
         <div className="image">
           <picture>
-            <source media="(max-width: 600px)" srcSet={hoursImage} />
-            <source media="(max-width: 1200px)" srcSet={hoursImage} />
-            <source media="(min-width: 1201px)" srcSet={hoursImage} />
-            <img src={restaurantImage} alt="restaurant" />
+            <img src={hoursImage} alt="restaurant" />
           </picture>
         </div>
         <div className="hours-overlay">

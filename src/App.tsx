@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { NavBar } from "./components/navbar.component";
 import { Home } from "./pages/home.component";
+import { Menu } from "./pages/menu.component";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route index path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/menu" element={<Menu />} />
         </Routes>
       </BrowserRouter>
     </>

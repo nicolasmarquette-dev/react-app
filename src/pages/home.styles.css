@@ -39,7 +39,7 @@
 }
 
 .paragraph-list div {
-  margin-bottom: 5%; /* Espace entre le paragraphe et le séparateur */
+  margin-bottom: 2%; /* Espace entre le paragraphe et le séparateur */
   padding: 0 50px 0 50px;
 }
 .paragraph-list div:first-child {
